@@ -26,7 +26,7 @@ TextStyle textNunito300(double tamanho) {
   return GoogleFonts.nunitoSans(fontSize: tamanho, fontWeight: FontWeight.w300);
 }
 
-//estilo nunito 700
+//estilo nunito 700 
 TextStyle textNunitobold(double tamanho) {
   return GoogleFonts.nunitoSans(fontSize: tamanho, fontWeight: FontWeight.w700);
 }
