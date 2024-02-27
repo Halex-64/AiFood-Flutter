@@ -31,6 +31,14 @@ TextStyle textNunitobold(double tamanho) {
   return GoogleFonts.nunitoSans(fontSize: tamanho, fontWeight: FontWeight.w700);
 }
 
+TextStyle textNunitoGreybold(double tamanho) {
+  return GoogleFonts.nunitoSans(color:Colors.grey[300],fontSize: tamanho, fontWeight: FontWeight.w700);
+}
+
+TextStyle textNunitoGreyybold(double tamanho) {
+  return GoogleFonts.nunitoSans(color:Colors.grey,fontSize: tamanho, fontWeight: FontWeight.w700);
+}
+
 TextStyle textNunitoWhiteBold(double tamanho) {
   return GoogleFonts.nunitoSans(
       color: Colors.white, fontSize: tamanho, fontWeight: FontWeight.bold);

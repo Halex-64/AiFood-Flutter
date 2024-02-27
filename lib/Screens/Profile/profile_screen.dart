@@ -16,8 +16,8 @@ class ProfileScreen extends StatelessWidget {
           Row(
             children: [
               circleAvatar(
-                  'https://imagensfree.com.br/wp-content/uploads/2021/11/icone-ifood-preto-300x300.png'),
-              Text('Satoru Gojo', style: textRobotobold(16)),
+                  'assets/profile.jpg'),
+              Text('Meu Perfil', style: textRobotobold(16)),
             ],
           ),
           listTile(Icons.chat, 'Conversas', 'Meu histórico de conversas'),
